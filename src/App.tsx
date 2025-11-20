@@ -60,7 +60,7 @@ export default function App() {
   return (
     <div className="container">
       <div className="card">
-        <div className="title">Atlas New Tab {embedReady ? <span style={{ marginLeft: 8, fontSize: 12, color: '#06b6d4' }}>Embeddings ready</span> : <span style={{ marginLeft: 8, fontSize: 12, color: '#9aa7b2' }}>Warming up…</span>}</div>
+        <div className="title">NovaSurf Browser {embedReady ? <span style={{ marginLeft: 8, fontSize: 12, color: '#06b6d4' }}>Embeddings ready</span> : <span style={{ marginLeft: 8, fontSize: 12, color: '#9aa7b2' }}>Warming up…</span>}</div>
 
         <SearchBox
           value={query}
