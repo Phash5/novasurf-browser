@@ -89,3 +89,17 @@ VITE_ONNX_MODEL=Xenova/all-MiniLM-L6-v2
 ## Notes
 - Ensure Chrome is launched with the specified `--remote-debugging-port` before the bridge connects, or set `CHROME_PATH` so the server auto‑launches it.
 - For Qdrant Cloud, set `VITE_QDRANT_HOST` to the TLS endpoint and provide `VITE_QDRANT_API_KEY`.
+
+## Screenshots
+- New Tab: `docs/screenshots/ntp.png`
+- Domain‑Filtered Search: `docs/screenshots/domain-filter.png`
+- Approvals & Logs: `docs/screenshots/approvals.png`
+- CDP Health: `docs/screenshots/health.png`
+
+To add images, create `docs/screenshots/` and save PNGs with the names above, then reference them here:
+```
+![NovaSurf New Tab](docs/screenshots/ntp.png)
+![Domain‑Filtered Search](docs/screenshots/domain-filter.png)
+![Approvals & Logs](docs/screenshots/approvals.png)
+![CDP Health](docs/screenshots/health.png)
+```
