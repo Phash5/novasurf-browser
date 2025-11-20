@@ -245,7 +245,7 @@ const health = http.createServer((req, res) => {
   res.statusCode = 404
   res.end('not found')
 })
-health.listen(Number(process.env.HEALTH_PORT || 8789))
+health.listen(Number(process.env.HEALTH_PORT || 8789), '127.0.0.1')
 
 function delay(ms) { return new Promise(r => setTimeout(r, ms)) }
 async function init() {
